@@ -31,5 +31,6 @@ g++ ustanik_pssm.cpp -o ps
 
 Files to have Gibbs sampler ran on are E.coliRpoN-sequences-16-100nt.fasta E.coliRpoN-sequences-6-300nt.fasta
 //Gibbs sampler program with listed initial start size
+
 g++  ustanik_gibbs.cpp -o gb
 ./gb E.coliRpoN-sequences-16-100nt.fasta 39
