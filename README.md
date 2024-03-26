@@ -5,14 +5,12 @@ Algorithms being implemented are Quicksort, Needleman-Wunsch, K-means clustering
 
 
 Files for sorting are: sample100k.fastq sample10k.fastq sample1k.fastq
-To run
 //sorting based upong sequence
 g++ try.cpp && time ./a.out sample1m.fastq > test.txt
 
 
 Files to be aligned: RpoB-B.subtilis.fasta RpoB-E.coli.fasta
 //Run Needleman_Wunsch Alignment with match score, mismatch score, and gap score
-
 g++ jack_NW.cpp -o ts
 ./ts RpoB-B.subtilis.fasta RpoB-E.coli.fasta 1 -3 -4
 
